@@ -1,0 +1,27 @@
+# [Waveform Design]Joint Design of MIMO Radar OFDM-LFM Waveform and Receiver Filter under Spatial Non-uniform Scattering
+
+In recent years, waveform design has gradually become one of the effective means for suppressing clutter. In essence, waveform design refers to the redistribution of transmitting energy, allocating less energy in areas with strong clutter and more energy in areas with weak clutter and strong targets, thereby achieving the purpose of clutter suppression.
+Multi-input multi-output (MIMO) radar has received widespread attention in recent years [1], [2]. Compared to traditional phased array radars, it can emit different waveforms simultaneously through different antennas, increasing the degree of freedom in waveform design. Based on antenna configuration, MIMO radar can be divided into two types: statistical MIMO radar [3] and colocated MIMO radar [4]. The former can overcome target blinking effects and improve target positioning accuracy, while the latter has superior spatial resolution capabilities, which is conducive to suppressing clutter in spatial orientation. Based on the main purpose of suppressing clutter, this paper focuses on the waveform design of colocated MIMO radar.
+A good basic waveform can greatly improve the performance of optimized waveforms, so the selection of basic waveforms plays an important role in waveform design. Although there have been many studies on waveform design, most of them are focused on phase-coded signals. However, the high Doppler sensitivity of phase-coded signals brings significant performance limitations in radar applications, especially on moving platforms, and thus is not considered ideal as a basic signal. Although linear frequency modulation (LFM) signals have been widely used in radar systems due to their excellent performance, they lack frequency hopping capability. To overcome this issue, orthogonal frequency division multiplexing (OFDM) modulation was introduced into LFM waveforms, forming OFDM-LFM waveforms [5]. Due to the combined advantages of OFDM and LFM, OFDM-LFM waveforms are widely used in waveform design for high-resolution imaging [6], mitigation of multipath effects [7], and improvement of waveform-related performance [8]. Therefore, this paper will OFDM-LFM waveforms as the basic waveform for anti-clutter waveform design.
+According to the analysis in [9], improving SCNR can be achieved by optimizing the spectral shape of the emission waveform. To this end, literature [10] proposed an OFDM-LFM waveform design method that optimizes multiple sets of subcarrier durations, overcoming the issue of single set optimization methods [8] that cannot achieve multi-set subcarrier OFDM-LFM spectrum shaping. This paper introduces the multi-set optimization method into MIMO radar and combines it with the design of the harvester receiver filter, establishing a frequency domain signal model for MIMO radar. To address non-convex optimization problems, unlike the two-step indirect method in [10] which first optimizes the spectrum and then approaches the spectrum, this paper proposes a direct optimization algorithm (one-step method) for both the emission waveform and receiver filter, where the waveform optimization problem can be decomposed into multiple subproblems for iterative solution. Finally, numerical examples validate the effectiveness of this method. Simulation results show that the optimized waveform can suppress clutter simultaneously in the spatial azimuth domain and frequency domain. Moreover, compared to the indirect optimization method, which only optimizes the emission waveform and a single set optimization method, this method has higher output SCNR.
+The article includes illustrations.
+Conclusion: This paper introduces the multi-set subcarrier duration optimization method into MIMO OFDM-LFM waveform design, combined with receiver filter design. When optimizing the emission waveform, this paper proposes an ISO-based cyclic optimization algorithm that directly optimizes the subcarrier durations of the OFDM-LFM waveform. Simulation results show that this method can reallocate the emission energy, allocating it in areas with lower clutter power and in areas with higher clutter power, thereby achieving clutter suppression in the spatial azimuth-frequency domain. Compared to existing methods, this method has higher output signal-to-noise ratio.
+Simulation results
+
+## Images
+
+![(Waveform Design)Joint Design of MIMO Radar OFDM-LFM Waveform and Receiver Filter under Spatial Non-uniform Scattering [Attached MATLAB Code]](01.jpg)
+![(Waveform Design)Joint Design of MIMO Radar OFDM-LFM Waveform and Receiver Filter under Spatial Non-uniform Scattering [Attached MATLAB Code]](02.jpg)
+![(Waveform Design)Joint Design of MIMO Radar OFDM-LFM Waveform and Receiver Filter under Spatial Non-uniform Scattering [Attached MATLAB Code]](03.jpg)
+![(Waveform Design)Joint Design of MIMO Radar OFDM-LFM Waveform and Receiver Filter under Spatial Non-uniform Scattering [Attached MATLAB Code]](04.jpg)
+![(Waveform Design)Joint Design of MIMO Radar OFDM-LFM Waveform and Receiver Filter under Spatial Non-uniform Scattering [Attached MATLAB Code]](05.jpg)
+![(Waveform Design)Joint Design of MIMO Radar OFDM-LFM Waveform and Receiver Filter under Spatial Non-uniform Scattering [Attached MATLAB Code]](06.jpg)
+
+<!-- PAYMENT_BLOCK -->
+
+## Get this dataset
+
+- Payment link (Stripe): [Buy now](https://buy.stripe.com/3cs8yP7sY87d0vu9AB)
+- Payment QR code: ![Payment QR code](pay.png)
+
+<!-- /PAYMENT_BLOCK -->
